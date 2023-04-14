@@ -1,0 +1,381 @@
+/* BASICS START */
+
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../font/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: DancingScript-VariableFont;
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+
+html {
+    font-size: 62.5%;
+}
+    
+
+body {
+    overflow-x: hidden;
+}
+
+/* BASICS END */
+
+/* START HEADER AREA */
+
+header {
+    background-image: url(./img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+    
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+    
+img {
+    margin-left: -14rem;
+}
+
+nav div {
+    margin: 0 -20rem 0 0rem;
+}
+    
+nav div a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 5rem 0 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-sign  {
+    padding: 1rem 1.5rem;
+    border: 0px solid;
+    border-radius: 20px;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    color: black;
+}
+
+.btn-sign:hover {
+    background-color: chocolate;
+    font-family: DancingScript-VariableFont, Arial, Helvetica, sans-serif;
+}
+
+header section {
+    color:white;
+    margin-left: 8rem;
+    padding-top: 10rem;
+    font-size: 25px;
+}
+    
+section div h1 {
+    font-size: 150px;
+    font-family: DancingScript-VariableFont, Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+section div p {
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+    
+.btn-order {
+    padding: 1rem 1.5rem;
+    border: 0px solid;
+    border-radius: 20px;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-order:hover {
+    background-color: chocolate;
+    font-family: DancingScript-VariableFont, Arial, Helvetica, sans-serif;
+}
+   
+/* HEADER AREA END */
+
+/* DISCOVER THE BEST COFFEE START  */
+
+.discover {
+    height: 140vh;
+    padding-top: 10rem;
+}
+
+article  {
+    margin-left: 8rem;
+    margin-bottom: -34rem;
+}
+
+.tasse {
+    display: flex;
+    justify-content:center;
+    margin-right: -15rem;
+}
+
+article h2 {
+    font-size: 50px;
+    margin-bottom: 3rem;
+    color: rgb(116, 60, 21);
+}
+
+article div p {
+    font-size: 20px;
+    line-height: 3rem;
+}
+  
+.btn-learn {
+    padding: 1rem 1.5rem;
+    border: 0px solid;
+    border-radius: 20px;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-learn:hover {
+    background-color: chocolate;
+    font-family: DancingScript-VariableFont, Arial, Helvetica, sans-serif;
+}
+
+.splash {
+    margin-left: 14rem;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+}
+
+/* DISCOVER THE BEST COFFEE END  */
+
+/* WHY ARE WE DIEFFERENT START */
+
+main section div h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(116, 60, 21);
+}
+    
+
+.make-your-day {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-bottom: 3rem;
+}
+
+.visual-icons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+    
+.icon-block1 {
+    background-image: url(./img/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 8vh 1.5vw;
+    background-color:rgb(233, 217, 201);
+    border: 1px solid;
+    margin-right: 60rem;
+    font-size: 20px;
+    padding: 13.5rem 4rem 7rem 4rem;
+}
+
+.icon-block2 {
+    background-image: url(./img/icon2.png);
+    background-repeat: no-repeat;
+    background-position: 7.5vh 1.5vw;
+    background-color:rgb(245, 240, 234);
+    border: 1px solid;
+    font-size: 20px;
+    padding: 15.8rem 5.5rem 0.6rem 5.5rem;
+    margin: 0 60rem 0rem -58rem;
+}
+    
+.icon-block3 {
+    background-image: url(./img/icon3.png);
+    background-repeat: no-repeat;
+    background-position: 8vh 1.5vw;
+    background-color:rgb(245, 240, 234);
+    border: 1px solid;
+    font-size: 20px;
+    padding: 13.8rem 4rem 0.4rem 4rem;
+    margin: 0 60rem 0 -58rem;
+}
+    
+.icon-block4 {
+    background-image: url(./img/icon4.png);
+    background-repeat: no-repeat;
+    background-position: 8vh 1.5vw;
+    background-color:rgb(245, 240, 234);
+    border: 1px solid;
+    font-size: 20px;
+    padding: 14.5rem 3rem 0.5rem 3rem;
+    margin: 0 6rem 0 -58rem;
+}   
+    
+.icon-block1 h3 {
+    color: rgb(116, 60, 21);
+    padding: 0rem 0 2rem 0;
+    margin-bottom: -2rem;
+    line-height: 4rem;
+}  
+    
+.icon-block1 p {
+    color: grey;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: -3rem;
+}  
+
+.icon-block2 h3 {
+    color: rgb(116, 60, 21);
+    line-height: 0.1rem;
+    padding: 0rem 0 1.5rem 0;
+    margin-bottom: 0.3rem;
+}
+
+.icon-block2 p {
+    color: grey;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2rem;
+}
+    
+.icon-block3 h3 {
+    color: rgb(116, 60, 21);
+    margin: 0rem 0 0 0;
+    line-height: 4rem;
+}
+   
+
+.icon-block3 p {
+    color: grey;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2rem;
+}
+    
+.icon-block4 h3 {
+    color: rgb(116, 60, 21);
+    margin: 0rem 0 0 0;
+    line-height: 3.5rem;
+    margin-top: -0.5rem;
+}
+ 
+.icon-block4 p {
+    color: grey;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2rem;
+}
+    
+.idea  {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: grey;
+    margin-left: -5rem;
+    margin-bottom: -2rem;
+}   
+
+.today {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: -4rem;
+    color: rgb(116, 60, 21);
+    margin-bottom: 3rem;
+    margin-left: -8rem;
+}
+
+.btn-join {
+    margin: 5rem -100rem 0 82rem;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    border: 0px solid;
+    border-radius: 20px;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-join:hover {
+    background-color: chocolate;
+    font-family: DancingScript-VariableFont, Arial, Helvetica, sans-serif;
+}
+
+/* WHY ARE WE DIEFFERENT END */
+
+/* AMAZING MORNING START */
+
+.amazing-morning {
+    background: linear-gradient(300deg,rgba(106, 48, 14, 0.789),rgba(106, 48, 14, 0.792)), url(./img/bgimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+article .get-a-chance  {
+    font-size: 40px;
+    padding: 14rem 0 0 0;
+    color: white;
+    font-family: PlayfairDisplay-Bold, Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+    line-height: 5rem;
+}
+   
+article .better-life {
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 3rem;
+}
+
+.cup {
+    margin: -15rem -150rem 0rem 125rem;
+}
+    
+article .btn-order-now {
+    padding: 1rem 1.5rem;
+    border: 0px solid;
+    border-radius: 20px;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}               
+    
+.btn-order-now:hover {
+    background-color: chocolate;
+    font-family: DancingScript-VariableFont, Arial, Helvetica, sans-serif;
+}
+    
+/* AMAZING MORNING END */
+
+    
+    
+    
+    
